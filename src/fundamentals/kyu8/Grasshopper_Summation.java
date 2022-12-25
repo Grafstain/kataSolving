@@ -2,11 +2,7 @@ package fundamentals.kyu8;
 
 public class Grasshopper_Summation {
     public static int summation(int n) {
-        int sum = 0;
-        for (int i = 0; i <= n; i++) {
-            sum += i;
-        }
-        return sum;
+        return  n*(n+1)/2;
     }
 
     public static void main(String[] args) {
